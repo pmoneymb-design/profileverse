@@ -1,0 +1,1 @@
+window.getNarutoProfile=function(){const p=JSON.parse(localStorage.getItem('profileverseProfileV2')||'null');return p?NarutoData[p.primaryArchetype]||NarutoData.Analyst:null;}

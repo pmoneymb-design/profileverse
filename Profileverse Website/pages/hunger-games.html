@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hunger Games | Profileverse</title>
+<meta name="description" content="Discover your Hunger Games identity from your Profileverse personality profile.">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/hunger-games.css">
+</head>
+<body>
+<div class="hg-background" aria-hidden="true"><div class="hg-glow glow-one"></div><div class="hg-glow glow-two"></div><div class="hg-grid"></div></div>
+<header class="hg-header">
+<a class="hg-logo" href="../index.html"><span>P</span> Profileverse</a>
+<nav><a href="../index.html#universes">Universes</a><a href="results.html">All Results</a><a href="passport.html">Passport</a></nav>
+</header>
+<main class="hg-page">
+<section class="hg-hero">
+<div><p class="eyebrow">PROFILEVERSE × PANEM</p><h1>Your Hunger Games Profile</h1><p>Your existing personality profile has been translated into the arena. Every result is calculated from your archetype and trait scores.</p></div>
+<div class="tribute-seal"><span>🏹</span><small>OFFICIAL TRIBUTE FILE</small></div>
+</section>
+<section id="missingProfile" class="missing-profile" hidden><h2>Your personality profile is missing.</h2><p>Complete the Profileverse assessment first, then return to Panem.</p><a href="quiz.html">Take the Assessment</a></section>
+<section id="resultsContent" hidden>
+<div class="tribute-summary">
+<div><span>Primary Archetype</span><strong id="primaryArchetype">—</strong></div>
+<div><span>Tribute Classification</span><strong id="tributeClass">—</strong></div>
+<div><span>Arena Readiness</span><strong id="readiness">—</strong></div>
+</div>
+<div class="hg-results-grid">
+<article class="hg-card featured"><span class="card-icon">🏛️</span><p>District</p><h2 id="district">—</h2><small id="districtDetail"></small></article>
+<article class="hg-card score-card"><span class="card-icon">🎯</span><p>Tribute Score</p><div class="score-wrap"><h2 id="tributeScore">—</h2><span>/ 12</span></div><div class="score-track"><i id="scoreBar"></i></div><small id="scoreDetail"></small></article>
+<article class="hg-card"><span class="card-icon">🏹</span><p>Best Weapon</p><h2 id="weapon">—</h2><small id="weaponDetail"></small></article>
+<article class="hg-card"><span class="card-icon">🧭</span><p>Arena Strategy</p><h2 id="strategy">—</h2><small id="strategyDetail"></small></article>
+<article class="hg-card"><span class="card-icon">👑</span><p>Victor Match</p><h2 id="victor">—</h2><small id="victorDetail"></small></article>
+<article class="hg-card"><span class="card-icon">🤝</span><p>Mentor</p><h2 id="mentor">—</h2><small id="mentorDetail"></small></article>
+<article class="hg-card"><span class="card-icon">✨</span><p>Capitol Reputation</p><h2 id="reputation">—</h2><small id="reputationDetail"></small></article>
+<article class="hg-card"><span class="card-icon">🔥</span><p>Survival Style</p><h2 id="survivalStyle">—</h2><small id="survivalDetail"></small></article>
+<article class="hg-card survival-card"><span class="card-icon">📈</span><p>Survival Chance</p><h2><span id="survivalChance">—</span>%</h2><div class="chance-ring" id="chanceRing"><span id="chanceLabel">—</span></div><small id="chanceDetail"></small></article>
+<article class="hg-card quote-card"><span class="card-icon">“</span><p>Hunger Games Quote</p><blockquote id="quote">—</blockquote></article>
+</div>
+<div class="hg-actions"><button id="revealButton" type="button">Replay Reveal</button><a href="results.html">View Every Universe</a></div>
+</section>
+</main>
+<script src="../js/hunger-games-data.js"></script>
+<script src="../js/hunger-games-engine.js"></script>
+<script src="../js/hunger-games-results.js"></script>
+<script src="../js/achievements.js" data-universe="hunger-games"></script>
+<script src="../js/universe-achievement-tracker.js"></script>
+</body>
+</html>

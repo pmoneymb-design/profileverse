@@ -1,0 +1,1 @@
+window.getMarvelProfile=function(){const p=JSON.parse(localStorage.getItem('profileverseProfileV2')||'null');return p?MarvelData[p.primaryArchetype]||MarvelData.Analyst:null;}
