@@ -1,0 +1,1 @@
+window.getLOTRProfile=function(){const p=JSON.parse(localStorage.getItem('profileverseProfileV2')||'null');return p?LOTRData[p.primaryArchetype]||LOTRData.Analyst:null;}

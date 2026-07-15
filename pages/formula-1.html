@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formula 1 | Profileverse</title>
+<meta name="description" content="Discover your Formula 1 identity using your existing Profileverse personality profile.">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/formula-1.css">
+</head>
+<body>
+<div class="f1-background" aria-hidden="true">
+  <div class="speed-line line-one"></div>
+  <div class="speed-line line-two"></div>
+  <div class="track-grid"></div>
+</div>
+
+<header class="f1-header">
+  <a class="f1-logo" href="../index.html"><span>P</span> Profileverse</a>
+  <nav>
+    <a href="../index.html#universes">Universes</a>
+    <a href="results.html">All Results</a>
+    <a href="passport.html">Passport</a>
+  </nav>
+</header>
+
+<main class="f1-page">
+<section class="f1-hero">
+  <div>
+    <p class="eyebrow">PROFILEVERSE × FORMULA 1</p>
+    <h1>Your Formula 1 Profile</h1>
+    <p>Your existing personality profile has been translated into a complete motorsport identity—from constructor fit and driver match to racecraft, circuit specialty, and championship potential.</p>
+  </div>
+  <div class="driver-badge">
+    <span>🏎️</span>
+    <small>OFFICIAL DRIVER PROFILE</small>
+  </div>
+</section>
+
+<section id="missingProfile" class="missing-profile" hidden>
+  <h2>Your personality profile is missing.</h2>
+  <p>Complete the Profileverse assessment first, then return to the paddock.</p>
+  <a href="quiz.html">Take the Assessment</a>
+</section>
+
+<section id="resultsContent" hidden>
+  <div class="f1-summary">
+    <div><span>Primary Archetype</span><strong id="primaryArchetype">—</strong></div>
+    <div><span>Driver Classification</span><strong id="driverClass">—</strong></div>
+    <div><span>Championship Readiness</span><strong id="readiness">—</strong></div>
+  </div>
+
+  <div class="f1-results-grid">
+    <article class="f1-card featured">
+      <span class="card-icon">🏁</span>
+      <p>Constructor Team</p>
+      <h2 id="constructorTeam">—</h2>
+      <small id="constructorDetail"></small>
+    </article>
+
+    <article class="f1-card score-card">
+      <span class="card-icon">⚡</span>
+      <p>Driver Rating</p>
+      <div class="score-wrap"><h2 id="driverRating">—</h2><span>/ 100</span></div>
+      <div class="score-track"><i id="driverBar"></i></div>
+      <small id="driverRatingDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">👤</span>
+      <p>Driver Match</p>
+      <h2 id="driverMatch">—</h2>
+      <small id="driverMatchDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">🧠</span>
+      <p>Driving Style</p>
+      <h2 id="drivingStyle">—</h2>
+      <small id="drivingStyleDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">🗺️</span>
+      <p>Signature Circuit</p>
+      <h2 id="signatureCircuit">—</h2>
+      <small id="signatureCircuitDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">🎧</span>
+      <p>Race Engineer Match</p>
+      <h2 id="engineerMatch">—</h2>
+      <small id="engineerMatchDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">🛠️</span>
+      <p>Technical Role</p>
+      <h2 id="technicalRole">—</h2>
+      <small id="technicalRoleDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">📡</span>
+      <p>Pit Wall Strategy</p>
+      <h2 id="pitStrategy">—</h2>
+      <small id="pitStrategyDetail"></small>
+    </article>
+
+    <article class="f1-card">
+      <span class="card-icon">🌧️</span>
+      <p>Wet Weather Rating</p>
+      <h2><span id="wetRating">—</span>/100</h2>
+      <small id="wetRatingDetail"></small>
+    </article>
+
+    <article class="f1-card championship-card">
+      <span class="card-icon">🏆</span>
+      <p>Championship Potential</p>
+      <h2><span id="championshipPotential">—</span>%</h2>
+      <div class="chance-ring" id="chanceRing"><span id="chanceLabel">—</span></div>
+      <small id="championshipDetail"></small>
+    </article>
+
+    <article class="f1-card quote-card">
+      <span class="card-icon">“</span>
+      <p>Team Radio Quote</p>
+      <blockquote id="radioQuote">—</blockquote>
+    </article>
+  </div>
+
+  <div class="f1-actions">
+    <button id="revealButton" type="button">Replay Reveal</button>
+    <a href="results.html">View Every Universe</a>
+  </div>
+</section>
+</main>
+
+<script src="../js/formula-1-data.js"></script>
+<script src="../js/formula-1-engine.js"></script>
+<script src="../js/formula-1-results.js"></script>
+<script src="../js/achievements.js" data-universe="formula-1"></script>
+<script src="../js/universe-achievement-tracker.js"></script>
+</body>
+</html>

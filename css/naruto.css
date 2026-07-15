@@ -1,0 +1,1 @@
+body{background:#120d07;color:#fff;font-family:system-ui}.naruto{width:min(1100px,95%);margin:auto;padding:40px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:#2a1b0d;border:1px solid #ff8b2c;border-radius:18px;padding:20px}h1{font-size:3rem}h2{color:#ffb15c;font-size:.9rem;text-transform:uppercase}a{color:#ffb15c}

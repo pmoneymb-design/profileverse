@@ -1,0 +1,1 @@
+const a=getAvatarProfile();if(a){nation.textContent=a.nation;bending.textContent=a.bending;advanced.textContent=a.advanced;character.textContent=a.character;animal.textContent=a.animal;lotus.textContent=a.lotus;teamrole.textContent=a.team;philosophy.textContent=a.philosophy;}

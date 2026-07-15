@@ -1,0 +1,1 @@
+const n=getNarutoProfile();if(n){village.textContent=n.village;nature.textContent=n.nature;clan.textContent=n.clan;character.textContent=n.character;rank.textContent=n.rank;quote.textContent=n.quote;}

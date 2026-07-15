@@ -1,0 +1,1 @@
+const m=getMarvelProfile();if(m){hero.textContent=m.hero;team.textContent=m.team;power.textContent=m.power;stone.textContent=m.stone;role.textContent=m.role;quote.textContent=m.quote;}

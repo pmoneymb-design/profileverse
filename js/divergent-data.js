@@ -1,0 +1,1 @@
+// Divergent data tables: factions, aptitude, fear landscapes, allies, instructors, quotes.

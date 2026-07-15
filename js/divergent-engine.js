@@ -1,0 +1,1 @@
+// Reads localStorage.getItem('profileverseProfileV2') and calculates all Divergent results.

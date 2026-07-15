@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valorant | Profileverse</title>
+<meta name="description" content="Discover your Valorant agent, role, map, weapon, playstyle, duo, rank potential, and clutch profile.">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/valorant.css">
+</head>
+<body>
+<div class="val-bg" aria-hidden="true"><div class="val-orb orb-a"></div><div class="val-orb orb-b"></div><div class="val-grid"></div></div>
+
+<header class="val-header">
+  <a class="val-logo" href="../index.html"><span>V</span> Profileverse</a>
+  <nav><a href="../index.html#universes">Universes</a><a href="results.html">All Results</a><a href="passport.html">Passport</a></nav>
+</header>
+
+<main class="val-page">
+  <section class="val-hero">
+    <div>
+      <p class="eyebrow">PROFILEVERSE × VALORANT PROTOCOL</p>
+      <h1>Your Valorant Profile</h1>
+      <p>Your existing personality profile has been translated into a complete tactical identity using your archetype and trait scores.</p>
+    </div>
+    <div class="protocol-mark"><span>◢</span><small>TACTICAL PERSONNEL FILE</small></div>
+  </section>
+
+  <section id="missingProfile" class="missing-profile" hidden>
+    <h2>Your personality profile is missing.</h2>
+    <p>Complete the Profileverse assessment first, then return to the Protocol.</p>
+    <a href="quiz.html">Take the Assessment</a>
+  </section>
+
+  <section id="resultsContent" hidden>
+    <div class="val-summary">
+      <div><span>Primary Archetype</span><strong id="primaryArchetype">—</strong></div>
+      <div><span>Competitive Profile</span><strong id="competitiveProfile">—</strong></div>
+      <div><span>Protocol Readiness</span><strong id="readiness">—</strong></div>
+    </div>
+
+    <div class="val-results-grid">
+      <article class="val-card featured"><span class="card-icon">🎯</span><p>Agent</p><h2 id="agent">—</h2><small id="agentDetail"></small></article>
+      <article class="val-card"><span class="card-icon">🛡️</span><p>Role</p><h2 id="role">—</h2><small id="roleDetail"></small></article>
+      <article class="val-card"><span class="card-icon">🗺️</span><p>Best Map</p><h2 id="map">—</h2><small id="mapDetail"></small></article>
+      <article class="val-card"><span class="card-icon">🔫</span><p>Signature Weapon</p><h2 id="weapon">—</h2><small id="weaponDetail"></small></article>
+      <article class="val-card"><span class="card-icon">🧠</span><p>Playstyle</p><h2 id="playstyle">—</h2><small id="playstyleDetail"></small></article>
+      <article class="val-card"><span class="card-icon">🤝</span><p>Best Duo Partner</p><h2 id="duo">—</h2><small id="duoDetail"></small></article>
+      <article class="val-card score-card"><span class="card-icon">💥</span><p>Clutch Rating</p><div class="score-wrap"><h2 id="clutchRating">—</h2><span>/100</span></div><div class="score-track"><i id="clutchBar"></i></div><small id="clutchDetail"></small></article>
+      <article class="val-card"><span class="card-icon">⚡</span><p>Ultimate Impact</p><h2 id="ultimateImpact">—</h2><small id="ultimateDetail"></small></article>
+      <article class="val-card rank-card"><span class="card-icon">📈</span><p>Ranked Potential</p><h2 id="rankedPotential">—</h2><div class="chance-ring" id="rankRing"><span id="rankPercent">—</span></div><small id="rankDetail"></small></article>
+      <article class="val-card quote-card"><span class="card-icon">“</span><p>Voice Line</p><blockquote id="voiceLine">—</blockquote></article>
+    </div>
+
+    <div class="val-actions"><button id="revealButton" type="button">Replay Reveal</button><a href="results.html">View Every Universe</a></div>
+  </section>
+</main>
+
+<script src="../js/valorant-data.js"></script>
+<script src="../js/valorant-engine.js"></script>
+<script src="../js/valorant-results.js"></script>
+<script src="../js/achievements.js" data-universe="valorant"></script>
+<script src="../js/universe-achievement-tracker.js"></script>
+</body>
+</html>
