@@ -1,1 +1,0 @@
-window.getAvatarProfile=function(){const p=JSON.parse(localStorage.getItem('profileverseProfileV2')||'null');if(!p)return null;return AvatarData[p.primaryArchetype]||AvatarData.Analyst;}

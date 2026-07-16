@@ -1,1 +1,0 @@
-// Reads localStorage.getItem('profileverseProfileV2') and calculates all Maze Runner results.

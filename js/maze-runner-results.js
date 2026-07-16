@@ -1,1 +1,0 @@
-// Renders Maze Runner results UI and stores completed results locally.
