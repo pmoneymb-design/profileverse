@@ -1,1 +1,0 @@
-// Renders Divergent results UI and stores completed results locally.

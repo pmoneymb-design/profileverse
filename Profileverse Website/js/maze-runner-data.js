@@ -1,1 +1,0 @@
-// Maze Runner data tables for Glade roles, strategies, allies, WCKD roles, leadership styles, quotes.

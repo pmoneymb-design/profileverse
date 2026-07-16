@@ -1,1 +1,0 @@
-// Teams, conferences, positions, coaches, stadiums, rivals, quotes

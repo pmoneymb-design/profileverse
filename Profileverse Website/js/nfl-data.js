@@ -1,1 +1,0 @@
-// NFL teams, positions, schemes, coaches, player comparisons, quotes.

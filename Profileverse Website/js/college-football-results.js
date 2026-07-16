@@ -1,1 +1,0 @@
-// Renders College Football results.

@@ -1,1 +1,0 @@
-const l=getLOTRProfile();if(l){race.textContent=l.race;kingdom.textContent=l.kingdom;character.textContent=l.character;weapon.textContent=l.weapon;role.textContent=l.role;quote.textContent=l.quote;}
